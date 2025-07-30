@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin-top: 10px;
+    display: flex;
+}
+
+header > ul > li {
+    display: inline-block;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+div > img {
+    max-width: 150px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
