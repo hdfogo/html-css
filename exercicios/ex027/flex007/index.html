@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fex Box</title>
+    <style>
+      div.container {
+        background-color: lightsalmon;
+        display: flex;
+        flex-flow: wrap;
+        height: 400px;
+        align-items: start;
+      }
+
+      div.item {
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .item:hover {
+        align-self: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item" id="alinha">A</div>
+      <div class="item" id="alinha2">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+      <div class="item">G</div>
+    </div>
+  </body>
+</html>
