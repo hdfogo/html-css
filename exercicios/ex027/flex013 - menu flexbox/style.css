@@ -26,14 +26,15 @@ header {
 }
 
 header h1 {
-  border: 1px dotted black;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.404);
+  /* border: 1px dotted black; */
 }
 
 header nav {
   display: flex;
   flex-flow: wrap;
   justify-content: end;
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
 }
 
 header nav a {
